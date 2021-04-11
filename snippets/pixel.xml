@@ -182,6 +182,7 @@
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaster" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="blaster" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pixel" clone-depth="1" />
