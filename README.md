@@ -1,5 +1,6 @@
-# PixelBlaster #
-<img src="">
+<p align="center">
+  <img src="PixelBlaster.png" />
+</p>  
 
 Credits:
 =======
