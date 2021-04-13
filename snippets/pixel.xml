@@ -6,6 +6,10 @@
           revision="eleven"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="syberia"
+          fetch="https://github.com/syberia-project"
+          revision="11.0" />
+
 
    <remote name="blaster"
           fetch="https://github.com/PixelBlaster-OS/"
@@ -83,6 +87,7 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
 
   <!-- External repos -->
+  <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="syberia" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/cldr" name="external_cldr" remote="pixel" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
@@ -102,7 +107,7 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="blaster" />
   <project path="frameworks/base" name="frameworks_base" remote="blaster" />
-  <project path="frameworks/native" name="frameworks_native" remote="pixel" />
+  <project path="frameworks/native" name="frameworks_native" remote="blaster" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
