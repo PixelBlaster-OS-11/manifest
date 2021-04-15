@@ -10,8 +10,7 @@
           fetch="https://github.com/syberia-project"
           revision="11.0" />
 
-
-   <remote name="blaster"
+  <remote name="blaster"
           fetch="https://github.com/PixelBlaster-OS/"
           revision="refs/heads/eleven" />
 
@@ -87,6 +86,7 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="pixel" />
 
   <!-- External repos -->
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="blaster" />
   <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="syberia" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/cldr" name="external_cldr" remote="pixel" />
