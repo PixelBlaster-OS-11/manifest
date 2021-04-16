@@ -46,3 +46,12 @@ $ mka bacon -jX
 ### Submitting Patches ###
 
 Patches are always welcome! Fork any of the repos and make pull requests. Maintain Proper Authorship if picking someone else's commits.
+
+### Apply for Official Maintainership ###
+
+You can apply for officialy maintaining the ROM for your device by filling the form below.
+
+https://forms.gle/7GJucJaVJmWeszfV9
+
+After filling the form, contact @TheTablaster on telegram for further details.
+
