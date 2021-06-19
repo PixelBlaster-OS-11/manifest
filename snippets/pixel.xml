@@ -6,6 +6,10 @@
           revision="eleven"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="pixel-devices"
+          fetch="https://github.com/PixelBlaster-Devices"
+          revision="eleven" />  
+
   <remote name="syberia"
           fetch="https://github.com/syberia-project"
           revision="11.0" />
