@@ -18,6 +18,10 @@
           fetch="https://github.com/PixelBlaster-OS/"
           revision="refs/heads/eleven" />
 
+  <remote name="blaster-gitlab"
+          fetch="https://gitlab.com/Blaster4385"
+          revision="eleven" />          
+
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
           revision="eleven" />
@@ -205,7 +209,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="pixel" clone-depth="1" />
-
+  <project path="prebuilts/sdk" name="android_prebuilts_sdk" remote="blaster-gitlab" clone-depth="1" />
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="blaster" />
   <project path="system/core" name="system_core" remote="blaster" />
