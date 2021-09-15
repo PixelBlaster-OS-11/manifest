@@ -123,8 +123,8 @@
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="pixel" />
 
   <!-- General repos -->
-  <project path="art" name="art" remote="pixel" />
-  <project path="bionic" name="bionic" remote="pixel" />
+  <project path="art" name="art" remote="blaster" />
+  <project path="bionic" name="bionic" remote="blaster" />
   <project path="build/make" name="build" remote="blaster">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
