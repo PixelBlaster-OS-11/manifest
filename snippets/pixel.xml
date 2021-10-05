@@ -173,6 +173,7 @@
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/AboutPhone" name="packages_apps_AboutPhone" remote="blaster" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
