@@ -37,6 +37,10 @@
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
+  <remote name="microg"
+          fetch="https://github.com/lineageos4microg"
+          revision="master" />
+
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixel" />
@@ -211,6 +215,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="pixel" clone-depth="1" />
   <project path="prebuilts/sdk" name="android_prebuilts_sdk" remote="blaster-gitlab" clone-depth="1" />
+  <project path="prebuilts/prebuiltapks" name="android_prebuilts_prebuiltapks" remote="microg" revision="master" />
+
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="blaster" />
   <project path="system/core" name="system_core" remote="blaster" />
