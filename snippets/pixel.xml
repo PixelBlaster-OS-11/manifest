@@ -149,7 +149,7 @@
   <project path="manifest" name="manifest" remote="blaster" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="blaster" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="blaster-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pixel" />
   <project path="vendor/support" name="vendor_support" remote="blaster" />
 
@@ -181,6 +181,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="blaster" />
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="pixel" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
